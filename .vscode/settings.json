@@ -1,0 +1,8 @@
+{
+  "code-runner.executorMap": {
+    "go": "cd $dir && go run $fileName"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": false
+}
