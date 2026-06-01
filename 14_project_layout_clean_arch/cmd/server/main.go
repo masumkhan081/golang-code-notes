@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/masumkhan081/golang-code-notes/topics/14_project_layout_clean_arch/internal/repository"
-	"github.com/masumkhan081/golang-code-notes/topics/14_project_layout_clean_arch/internal/service"
+	"github.com/masumkhan081/golang-code-notes/14_project_layout_clean_arch/internal/repository"
+	"github.com/masumkhan081/golang-code-notes/14_project_layout_clean_arch/internal/service"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/masumkhan081/golang-code-notes/topics
+module github.com/masumkhan081/golang-code-notes
 
 go 1.25.0
 

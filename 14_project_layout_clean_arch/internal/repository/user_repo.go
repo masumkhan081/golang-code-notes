@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"github.com/masumkhan081/golang-code-notes/topics/14_project_layout_clean_arch/internal/domain"
+	"github.com/masumkhan081/golang-code-notes/14_project_layout_clean_arch/internal/domain"
 	"sync"
 )
 
