@@ -27,6 +27,9 @@ Goroutines, channels, sync primitives, and concurrency patterns.
 - `13_rate_limiter/` — token bucket via `golang.org/x/time/rate`
 - `14_errgroup/` — `golang.org/x/sync/errgroup` fail-fast groups + bounded concurrency
 
+### Capstone — real-world combination
+- `15_real_world_user_sync/` — **production-shaped concurrent API client**: worker pool + rate limiter + per-request timeouts + retry with exponential backoff + graceful shutdown on Ctrl+C + streaming results + latency stats. Combines patterns from 04, 08, 09, 12, 13 and `../12_context/`.
+
 ## Cross-references
 
 - Context cancellation: `../12_context/`
