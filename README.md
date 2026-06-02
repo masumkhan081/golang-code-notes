@@ -32,7 +32,7 @@ go run 01_basics/data_types/data_types.go
 ### 🟡 Intermediate (Production-Ready)
 | Folder | Purpose |
 |---|---|
-| 08_concurrency_goroutines_channels | Parallelism: goroutines, channels |
+| 08_concurrency | Goroutines, channels, sync primitives, patterns (ordered easy→hard) |
 | 09_files_io | Read/write files, CSV/JSON/Logs |
 | 10_testing | Unit tests, benchmarks, table-driven tests |
 | 11_generics | Go 1.18+ generics |
@@ -45,7 +45,6 @@ go run 01_basics/data_types/data_types.go
 | 14_project_layout_clean_arch | Clean project structure |
 | 15_gorilla_mux_rest_api | REST API with Gorilla Mux |
 | 16_grpc | Proto definitions, gRPC servers/clients |
-| 17_go_routines_advanced_patterns | Worker pools, pipelines |
 | 18_contexts_cancellation_timeout | Context, cancellation, timeout |
 | 19_caching_redis | Redis for sessions, caching |
 | 20_queue_kafka_rabbitmq | Kafka/RabbitMQ, async tasks |

@@ -62,7 +62,7 @@ Examples:
 
 13_database_sql_postgres/query_timeout_and_tx/query_timeout_and_tx.go
 
-17_go_routines_advanced_patterns/rate_limiter/rate_limiter.go
+08_concurrency/13_rate_limiter/rate_limiter.go
 
 What that means
 
@@ -214,11 +214,11 @@ These are broadly fine as runnable demos:
 
 99_advanced_concepts/defer_panic_recover/defer_panic_recover.go
 
-17_go_routines_advanced_patterns/worker_pool/worker_pool.go
+08_concurrency/09_worker_pool/worker_pool.go
 
-17_go_routines_advanced_patterns/semaphore_bounded_concurrency/semaphore_bounded_concurrency.go
+08_concurrency/12_semaphore_bounded_concurrency/semaphore_bounded_concurrency.go
 
-17_go_routines_advanced_patterns/mutex_protected_cache/mutex_protected_cache.go
+08_concurrency/06_mutex_protected_cache/mutex_protected_cache.go
 
 18_contexts_cancellation_timeout/context_misuse_pitfalls/context_misuse_pitfalls.go
 

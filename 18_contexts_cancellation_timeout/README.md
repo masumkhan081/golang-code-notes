@@ -11,6 +11,6 @@ Cancellation, timeouts, request-scoped values, graceful shutdown.
 
 ## Cross-references
 
-- Concurrency basics: `../08_concurrency_goroutines_channels/`
-- errgroup (context-aware groups): `../17_go_routines_advanced_patterns/errgroup/`
+- Concurrency basics + patterns: `../08_concurrency/`
+- errgroup (context-aware groups): `../08_concurrency/14_errgroup/`
 - Interview Q&A: `../25_interview_questions/03_context.md`

@@ -15,4 +15,4 @@ Unit tests, table-driven tests, benchmarks, fuzzing, race & coverage.
 ## Cross-references
 
 - Interview Q&A: `../25_interview_questions/04_testing.md`
-- Concurrency leak detection (use in `TestMain` with goleak): `../08_concurrency_goroutines_channels/goroutine_leaks/`
+- Concurrency leak detection (use in `TestMain` with goleak): `../08_concurrency/08_goroutine_leaks/`
