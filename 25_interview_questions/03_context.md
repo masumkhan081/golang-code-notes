@@ -98,7 +98,7 @@ func RequestID(ctx context.Context) (string, bool) {
 }
 ```
 
-Code: `18_contexts_cancellation_timeout/with_value_and_keys/`.
+Code: `12_context/with_value_and_keys/`.
 
 ---
 

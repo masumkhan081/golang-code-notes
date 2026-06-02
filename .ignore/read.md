@@ -58,11 +58,11 @@ Examples:
 
 15_rest_routers/chi_router_example/chi_router_example.go
 
-13_database_sql_postgres/database_sql_postgres.go
+16_database_sql_postgres/database_sql_postgres.go
 
-13_database_sql_postgres/query_timeout_and_tx/query_timeout_and_tx.go
+16_database_sql_postgres/query_timeout_and_tx/query_timeout_and_tx.go
 
-08_concurrency/13_rate_limiter/rate_limiter.go
+11_concurrency/13_rate_limiter/rate_limiter.go
 
 What that means
 
@@ -101,7 +101,7 @@ Internal package files
 
 These are not standalone runnable:
 
-14_project_layout_clean_arch/internal/...
+20_project_layout_clean_arch/internal/...
 
 26_projects/taskapi/internal/...
 
@@ -111,15 +111,15 @@ Server files
 
 These do run, but they won’t exit by themselves:
 
-12_json_http_apis/production_http_handler/production_http_handler.go
+14_json_http_apis/production_http_handler/production_http_handler.go
 
-12_json_http_apis/middleware_chain/middleware_chain.go
+14_json_http_apis/middleware_chain/middleware_chain.go
 
-18_contexts_cancellation_timeout/graceful_shutdown.go
+12_context/graceful_shutdown.go
 
 15_rest_routers/chi_router_example/chi_router_example.go
 
-14_project_layout_clean_arch/cmd/server/main.go
+20_project_layout_clean_arch/cmd/server/main.go
 
 26_projects/taskapi/cmd/api/main.go
 
@@ -141,9 +141,9 @@ Database examples
 
 These need a working Postgres DSN:
 
-13_database_sql_postgres/database_sql_postgres.go
+16_database_sql_postgres/database_sql_postgres.go
 
-13_database_sql_postgres/query_timeout_and_tx/query_timeout_and_tx.go
+16_database_sql_postgres/query_timeout_and_tx/query_timeout_and_tx.go
 
 They require something like:
 
@@ -155,7 +155,7 @@ Without that, they will fail at runtime.
 
 Config example
 
-24_logging_config_env/env_config/env_config.go
+09_logging_config_env/env_config/env_config.go
 
 This expects DATABASE_URL too.
 
@@ -204,25 +204,25 @@ You now do have a strong set of runnable examples for many important topics.
 
 These are broadly fine as runnable demos:
 
-99_advanced_concepts/escape_analysis/escape_analysis.go
+24_advanced_concepts/escape_analysis/escape_analysis.go
 
-99_advanced_concepts/interface_internal_representation/interface_internal_representation.go
+24_advanced_concepts/interface_internal_representation/interface_internal_representation.go
 
-99_advanced_concepts/range_value_copy_traps/range_value_copy_traps.go
+24_advanced_concepts/range_value_copy_traps/range_value_copy_traps.go
 
-99_advanced_concepts/slice_growth_and_capacity/slice_growth_and_capacity.go
+24_advanced_concepts/slice_growth_and_capacity/slice_growth_and_capacity.go
 
-99_advanced_concepts/defer_panic_recover/defer_panic_recover.go
+24_advanced_concepts/defer_panic_recover/defer_panic_recover.go
 
-08_concurrency/09_worker_pool/worker_pool.go
+11_concurrency/09_worker_pool/worker_pool.go
 
-08_concurrency/12_semaphore_bounded_concurrency/semaphore_bounded_concurrency.go
+11_concurrency/12_semaphore_bounded_concurrency/semaphore_bounded_concurrency.go
 
-08_concurrency/06_mutex_protected_cache/mutex_protected_cache.go
+11_concurrency/06_mutex_protected_cache/mutex_protected_cache.go
 
-18_contexts_cancellation_timeout/context_misuse_pitfalls/context_misuse_pitfalls.go
+12_context/context_misuse_pitfalls/context_misuse_pitfalls.go
 
-14_project_layout_clean_arch/dependency_injection_example/dependency_injection_example.go
+20_project_layout_clean_arch/dependency_injection_example/dependency_injection_example.go
 
 Those are close to true single-file runnable notes.
 

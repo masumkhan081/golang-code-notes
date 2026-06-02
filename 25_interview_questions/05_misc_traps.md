@@ -21,7 +21,7 @@ Defensive copy when you might mutate:
 t := append([]int(nil), s[:1]...)
 ```
 
-See `99_advanced_concepts/slice_growth_and_capacity/`.
+See `24_advanced_concepts/slice_growth_and_capacity/`.
 
 ---
 
@@ -40,7 +40,7 @@ pointer to the backing array). To drop the rest:
 small := append([]byte(nil), big[:10]...)
 ```
 
-See `99_advanced_concepts/slice_memory_leak/`.
+See `24_advanced_concepts/slice_memory_leak/`.
 
 ---
 

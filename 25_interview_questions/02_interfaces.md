@@ -49,7 +49,7 @@ if !failed {
 return &MyErr{}
 ```
 
-Code: `99_advanced_concepts/nil_interface_trap/`.
+Code: `24_advanced_concepts/nil_interface_trap/`.
 
 ---
 
@@ -133,7 +133,7 @@ Implications:
 - Boxing a value in an interface allocates if it doesn't fit in a word.
 - Comparing interfaces compares both type and value — and panics if the value type isn't comparable (e.g., contains a slice/map/func).
 
-Code: `99_advanced_concepts/interface_internal_representation/`.
+Code: `24_advanced_concepts/interface_internal_representation/`.
 
 ---
 

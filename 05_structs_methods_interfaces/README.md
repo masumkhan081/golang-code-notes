@@ -14,6 +14,6 @@ The backbone of Go's type system.
 
 ## Cross-references
 
-- Typed-nil gotcha: `../99_advanced_concepts/nil_interface_trap/`
-- itab/eface internals: `../99_advanced_concepts/interface_internal_representation/`
+- Typed-nil gotcha: `../24_advanced_concepts/nil_interface_trap/`
+- itab/eface internals: `../24_advanced_concepts/interface_internal_representation/`
 - Interview Q&A: `../25_interview_questions/02_interfaces.md`

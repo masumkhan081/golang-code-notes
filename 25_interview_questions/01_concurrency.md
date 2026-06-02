@@ -55,7 +55,7 @@ if !ok { /* channel closed and drained */ }
 | `close(ch)` on nil | panics |
 
 This is useful: setting a channel to `nil` inside a `select` **disables**
-that case dynamically. See `08_concurrency/05_nil_channels/`.
+that case dynamically. See `11_concurrency/05_nil_channels/`.
 
 ---
 
@@ -70,7 +70,7 @@ Causes:
 3. **`select` without a cancellation case** — no `<-ctx.Done()`, so if none of the other cases fire, the goroutine wedges.
 
 Detection: `runtime.NumGoroutine()`, `net/http/pprof` goroutine dump,
-`github.com/uber-go/goleak`. Code: `08_concurrency/08_goroutine_leaks/`.
+`github.com/uber-go/goleak`. Code: `11_concurrency/08_goroutine_leaks/`.
 
 ---
 
@@ -235,4 +235,4 @@ return g.Wait()
 ```
 
 Caveat: only the first error is returned — sibling errors are dropped.
-Code: `08_concurrency/14_errgroup/`.
+Code: `11_concurrency/14_errgroup/`.

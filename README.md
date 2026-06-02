@@ -18,45 +18,52 @@ go run 01_basics/data_types/data_types.go
 
 ## 📚 Directory Structure & Topics
 
-### 🟢 Foundational (Must Know First)
+Numbered in study order — prerequisites come before topics that depend on them.
+
+### 🟢 Foundations (1-7)
 | Folder | Purpose |
 |---|---|
 | 01_basics | Data types, constants, variables, import/export |
 | 02_control_flow | if, for, switch, labels |
 | 03_functions | Parameters, variadic, named return, closures |
-| 04_arrays_slices_maps | Core collections used everywhere |
+| 04_collections | Arrays, slices, maps |
 | 05_structs_methods_interfaces | Structs, methods, interfaces, embedding |
 | 06_packages_modules | go mod, local imports, versioning |
 | 07_errors_handling | error type, wrapping, custom errors |
 
-### 🟡 Intermediate (Production-Ready)
+### 🟡 Core Toolkit (8-13)
 | Folder | Purpose |
 |---|---|
-| 08_concurrency | Goroutines, channels, sync primitives, patterns (ordered easy→hard) |
-| 09_files_io | Read/write files, CSV/JSON/Logs |
-| 10_testing | Unit tests, benchmarks, table-driven tests |
-| 11_generics | Go 1.18+ generics |
-| 12_json_http_apis | RESTful APIs with net/http |
-| 13_database_sql_postgres | database/sql, sqlx, gorm usage |
+| 08_files_io | Read/write files, CSV/JSON/Logs |
+| 09_logging_config_env | Structured logging, config, env vars |
+| 10_testing | Unit tests, benchmarks, table-driven, fuzzing |
+| 11_concurrency | Goroutines, channels, sync primitives, patterns (ordered easy→hard) |
+| 12_context | Cancellation, timeouts, request-scoped values |
+| 13_generics | Type parameters, constraints, stdlib `slices`/`maps`/`cmp` |
 
-### 🔴 Advanced / Real-World Engineering
+### 🔴 Networking & Services (14-19)
 | Folder | Purpose |
 |---|---|
-| 14_project_layout_clean_arch | Clean project structure |
-| 15_gorilla_mux_rest_api | REST API with Gorilla Mux |
-| 16_grpc | Proto definitions, gRPC servers/clients |
-| 18_contexts_cancellation_timeout | Context, cancellation, timeout |
-| 19_caching_redis | Redis for sessions, caching |
-| 20_queue_kafka_rabbitmq | Kafka/RabbitMQ, async tasks |
-| 21_docker_containerization | Dockerfiles, multi-stage builds |
-| 22_devops_ci_cd | CI/CD, build pipelines |
-| 23_security_jwt_oauth2 | JWT, OAuth2, securing APIs |
-| 24_logging_config_env | Logging, config, env, logrus/zap |
+| 14_json_http_apis | RESTful APIs with `net/http` |
+| 15_rest_routers | Routers (chi) |
+| 16_database_sql_postgres | `database/sql`, sqlx, pgx |
+| 17_caching_redis | Redis for sessions, caching |
+| 18_queue_kafka_rabbitmq | Kafka / RabbitMQ, async tasks |
+| 19_grpc | Proto definitions, gRPC server/client |
 
-### 💼 Job Focused & Final Touch
+### ⚫ Production / Ops (20-24)
 | Folder | Purpose |
 |---|---|
-| 25_interview_questions | Real-world Go interview Q&A |
+| 20_project_layout_clean_arch | Clean project structure (after you've felt the pain) |
+| 21_security_jwt_oauth2 | JWT, OAuth2, securing APIs |
+| 22_docker_containerization | Dockerfiles, multi-stage builds |
+| 23_devops_ci_cd | CI/CD, build pipelines |
+| 24_advanced_concepts | Escape analysis, nil interface trap, slice traps, defer/panic/recover |
+
+### 💼 Interview & Portfolio (25-26)
+| Folder | Purpose |
+|---|---|
+| 25_interview_questions | Topic-grouped Q&A (~70 questions) |
 | 26_projects | Mini-projects for portfolios |
 
 ---

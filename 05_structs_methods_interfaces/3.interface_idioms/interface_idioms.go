@@ -7,7 +7,7 @@
 // 4. Pointer vs value receivers and method set rules
 //
 // For the typed-nil gotcha (most-asked interface trap), see
-// 99_advanced_concepts/nil_interface_trap/nil_interface_trap.go
+// 24_advanced_concepts/nil_interface_trap/nil_interface_trap.go
 package main
 
 import (
@@ -143,7 +143,7 @@ ASSERTION FORMS
   switch v := i.(type) // type switch — preferred over chains of asserts
 
 COMMON TRAP — TYPED NIL
-  See 99_advanced_concepts/nil_interface_trap. In one line:
+  See 24_advanced_concepts/nil_interface_trap. In one line:
     var p *MyErr = nil
     var e error = p       // e != nil — interface has a type slot even if value is nil
 */
